@@ -1,12 +1,15 @@
 export const SITE = {
   website: "https://github.com/Davide131297/portfolio.git", // replace this with your deployed domain
-  tags: ["portfolio", "Resume cv", "Astro"],
+  title: "Davide Chiffi | Portfolio",
+  description: "Portfolio",
+  tags: ["portfolio", "webentwicklung", "Astro"],
   logo: "logo",
   logoText: "Portfolio",
   lang: "de",
   favicon: "/favicon.png",
   repository: "https://github.com/Davide131297/portfolio.git",
   author: "Davide Chiffi",
+  onImage: "/og-image.png",
 };
 
 export const ME = {
