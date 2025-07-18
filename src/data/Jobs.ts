@@ -13,14 +13,14 @@
  * @property {boolean} currentJob - Indicates whether the position is the current job.
  */
 interface WorkExperience {
-    title: string;
-    startDate: string;
-    endDate?: string;
-    company: string;
-    location: string;
-    description: string;
-    goals: string[];
-    currentJob: boolean;
+  title: string;
+  startDate: string;
+  endDate?: string;
+  company: string;
+  location: string;
+  description: string;
+  goals: string[];
+  currentJob: boolean;
 }
 
 /**
@@ -42,33 +42,33 @@ interface WorkExperience {
  * @property {Array<string>} goals - A list of goals or achievements within the job.
  * @property {boolean} currentJob - A flag indicating if the job is the current one.
  */
-const workExperience:WorkExperience[] = [
-    {
-        title: "Frontend Developer",
-        startDate: "2020-03-10",
-        company: "Google Inc",
-        location: "United States",
-        description: "Developed and maintained web applications using React, NextJs, and Tailwind CSS.",
-        goals: [
-            "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-            "Worked with the team to develop and maintain web applications using React, NodeJs, and MongoDB.",
-            "Created and maintained web applications using React, NodeJs, and MongoDB.",
-        ],
-        currentJob: true,
-    },
-    {
-        title: "Software Engineer",
-        startDate: "2018-03-10",
-        endDate: "2020-03-10",
-        company: "Company Name",
-        location: "United States",
-        description: "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-        goals: [
-            "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-            "Worked with the team to develop and maintain web applications using React, NodeJs, and MongoDB.",
-            "Created and maintained web applications using React, NodeJs, and MongoDB.",
-        ],
-        currentJob: false,
-    },
+const workExperience: WorkExperience[] = [
+  {
+    title: "Frontend Entwickler",
+    startDate: "2024-10-16",
+    company: "Piazza Blu² GmbH",
+    location: "Köln",
+    description:
+      "Entwicklung und Wartung von Webanwendungen mit React, NextJs und Tailwind CSS.",
+    goals: [
+      "Entwicklung und Wartung von Webanwendungen mit React und Next.Js.",
+      "Implementierung von responsiven Designs mit Tailwind CSS.",
+      "Optimierung der Benutzeroberfläche für eine verbesserte Benutzererfahrung.",
+      "Zusammenarbeit mit dem Team zur Verbesserung der Codequalität und der Entwicklungsprozesse.",
+    ],
+    currentJob: true,
+  },
+  {
+    title: "Frontend Entwickler",
+    startDate: "2023-10-01",
+    endDate: "2024-10-15",
+    company: "MaProTa GmbH",
+    location: "Köln",
+    description: "Entwicklung einer Webanwendung mit React.",
+    goals: [
+      "Entwicklung einer Webplattform für die Verwaltung von Projekten, Aufgaben und Ressourcen.",
+    ],
+    currentJob: false,
+  },
 ];
 export default workExperience;

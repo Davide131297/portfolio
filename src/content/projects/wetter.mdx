@@ -1,0 +1,90 @@
+---
+title: Wetter-Projekt
+summary: Zeigt aktuelle Wetterdaten, Vorhersagen und historische Statistiken in einer interaktiven Oberfläche an.
+tags:
+  - React
+  - Vite
+  - Leaflet
+  - MUI
+  - Mantine
+  - Recharts
+startDate: 2024-08-19
+endDate: 2024-09-13
+author: Davide Chiffi
+url: https://davide131297.github.io/wetter-projekt/
+cover: "./images/wetter/heute.png"
+ogImage: "./images/wetter/heute.png"
+---
+
+## Table of Contents
+
+1. [Überblick](#overview)
+2. [Ziel](#goal)
+3. [Lösung](#solution)
+   - [Datenquellen](#datenquellen)
+   - [Wie funktioniert die Suche?](#wie-funktioniert-die-suche)
+   - [Interaktive Kartenansicht](#interaktive-kartenansicht)
+   - [Benutzerführung](#benutzerfuehrung)
+4. [Herausforderungen und Lernerfahrungen](#challenges-and-learnings)
+5. [Abschließende Überlegungen](#final-thoughts)
+
+---
+
+## Überblick
+
+**Wetter-Projekt** ist eine React-Anwendung, die auf Vite basiert. Nutzer können
+Wettervorhersagen abrufen, historische Daten auswerten und eine Karte mit
+aktuellen Temperaturen, Niederschlag oder Bewölkung ansehen.
+
+---
+
+## 🎯 Ziel
+
+1. Einfache Suche nach Orten mit anschließender Anzeige der Vorhersage.
+2. Visualisierung von historischen Wetterdaten und interaktive Kartenansicht.
+
+---
+
+## ✨ Lösung
+
+### Datenquellen
+
+- **Open-Meteo** liefert Vorhersagen und Archivdaten.
+- **OpenWeatherMap** stellt Karten-Layer für Temperatur und Wolken bereit.
+- **OpenStreetMap** dient als Basiskarte.
+
+### Wie funktioniert die Suche?
+
+- Eingabe eines Ortes über die Autocomplete-Suche in der Navigation.
+- Abruf der Koordinaten über die Open-Meteo-Geocoding-API.
+- Anschließende Anfrage an die Forecast- oder Archiv-API je nach Seite.
+
+### Interaktive Kartenansicht
+
+- Leaflet zeigt die Karte mit OpenWeather-Layern.
+- Eine Legende informiert über Temperaturbereiche oder Bewölkung.
+- Auswahl der Layer (Temperatur, Wolken, Niederschlag) über ein Dropdown.
+
+### Benutzerführung
+
+- Navigation mit Suche führt direkt zur Vorhersage für den gewählten Ort.
+- Historische Auswertungen lassen sich per Checkbox konfigurieren.
+- Lottie-Animationen verdeutlichen die Wetterlage.
+
+---
+
+## ⚙️ Herausforderungen und Lernerfahrungen
+
+1. Kombination verschiedener APIs (Geocoding, Vorhersage, Karten-Layer).
+2. Responsive Gestaltung von Karten und Diagrammen.
+3. Dynamische Datenvisualisierung mit Recharts und Mantine.
+
+---
+
+## ✨ Abschließende Überlegungen
+
+Das Projekt demonstriert, wie sich unterschiedliche Wetterdatenquellen in einer
+modernen React-Oberfläche zusammenführen lassen. Die Karte und die Graphen
+ermöglichen einen schnellen Überblick über aktuelles und vergangenes Wetter.
+
+---

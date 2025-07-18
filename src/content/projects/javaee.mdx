@@ -1,0 +1,71 @@
+---
+title: Webanwendung mit JavaEE
+summary: Verwaltung und Visualisierung von CO₂-Emissionsdaten.
+tags:
+  - Projekt im Rahmen meines Studiums
+  - Jakarta EE
+  - JSF
+  - PrimeFaces
+  - JPA
+  - MySQL
+startDate: 2024-11-23
+endDate: 2025-01-15
+author: Davide Chiffi
+cover: "./images/JavaEE/javaEE-logo.webp"
+ogImage: "./images/JavaEE/javaEE-logo.webp"
+url: "https://github.com/Davide131297/Fallstudie_IPWA02-01"
+---
+
+## Table of Contents
+
+1. [Überblick](#ueberblick)
+2. [Problem](#problem)
+3. [Lösung](#loesung)
+   - [Funktionen](#funktionen)
+   - [Rollen](#rollen)
+4. [Herausforderungen und Lernerfahrungen](#challenges-and-learnings)
+5. [Abschließende Überlegungen](#abschliessende-ueberlegungen)
+
+---
+
+## Überblick
+
+\*\*Eine Java-basierte Webanwendung, die CO₂‑Emissionsdaten verwaltet und visualisiert. Nutzer können Datensätze durchsuchen, hinzufügen und Änderungsanfragen verwalten.
+
+---
+
+## 🎯 Ziel
+
+1. Zentralisierte Verwaltung von Emissionsdaten nach Ländern und Jahren.
+2. Rollenbasierter Zugriff für Wissenschaftler und Publisher.
+
+---
+
+## ✨ Lösung
+
+### Funktionen
+
+- Tabellenansicht sämtlicher CO₂‑Emissionen inklusive Filter nach Land und Jahr.
+- Diagramm mit den fünf Ländern mit den höchsten Gesamtemissionen.
+- Möglichkeit zum Hinzufügen neuer Datensätze und zum Stellen von Update-Anfragen.
+
+### Rollen
+
+- **Scientist**: Sucht nach Ländern, fügt neue Daten hinzu und stellt Aktualisierungsanfragen.
+- **Publisher**: Bestätigt oder lehnt Registrierungs- sowie Update-Anfragen und verwaltet die vorhandenen Daten.
+
+---
+
+## ⚙️ Herausforderungen und Lernerfahrungen
+
+1. **Datenmodellierung**: Die Abbildung relationaler CO₂‑Daten in JPA-Entitäten.
+2. **Rollenbasierte Navigation**: Unterschiedliche Ansichten für Publisher und Scientist.
+3. **Benutzerfreundlichkeit**: Integration von PrimeFaces‑Komponenten für eine interaktive Oberfläche.
+
+---
+
+## ✨ Abschließende Überlegungen
+
+Das Projekt zeigt, wie sich mit Jakarta EE eine schlanke Plattform zur Verwaltung von Emissionsdaten erstellen lässt. Durch die Trennung der Rollen und die einfachen Antragsprozesse behalten sowohl Wissenschaftler als auch Herausgeber stets den Überblick über ihre Daten.
+
+---

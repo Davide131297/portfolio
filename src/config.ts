@@ -1,79 +1,46 @@
 export const SITE = {
-    website: "https://simple-portfolio.vicbox.dev", // replace this with your deployed domain
-    title: "Simple Portfolio",
-    description: "A simple but beautiful portfolio created with Astro",
-    tags: ["portfolio", "Resume cv", "Astro"],
-    ogImage: "/og-image.webp",
-    logo: "logo",
-    logoText: "Portfolio",
-    lang: "en",
-    favicon: "/favicon.png",
-    repository: "https://github.com/vito8916/simple-portfolio.git",
-    author: "Victor Alvarado",
-    profile: "https://victoralvarado.dev/",
-}
+  website: "https://github.com/Davide131297/portfolio.git", // replace this with your deployed domain
+  tags: ["portfolio", "Resume cv", "Astro"],
+  logo: "logo",
+  logoText: "Portfolio",
+  lang: "de",
+  favicon: "/favicon.png",
+  repository: "https://github.com/Davide131297/portfolio.git",
+  author: "Davide Chiffi",
+};
 
 export const ME = {
-    name: "VicBox Dot Dev",
-    profession: "Software Engineer | Full Stack Developer",
-    profileImage: "pp2.png",
-    profileFacts: [
-        {
-            value: 10,
-            description: "Years of Experience"
-        },
-        {
-            value: 5,
-            description: "Completed Projects"
-        },
-        {
-            value: 4,
-            description: "Satisfied Clients"
-        }
-    ],
-    contactInfo: {
-        email: "vicbox.dev@vicbox.dev",
-        linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
-        resumeDoc: "resume.pdf",
+  name: "Davide Chiffi",
+  profession: "Softwareentwicklung Studium an der IU  | Softwareentwickler",
+  profileImage: "Foto.png",
+  profileFacts: [
+    {
+      value: 2,
+      description: "Jahre Erfahrung",
     },
-    aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
-}
+    {
+      value: 2,
+      description: "Jahre Frontend Erfahrung",
+    },
+    {
+      value: 2,
+      description: "React Erfahrung",
+    },
+  ],
+  contactInfo: {
+    email: "chiffi.davide@gmx.de",
+    linkedin: "https://www.linkedin.com/in/davide-chiffi/",
+    resumeDoc: "Lebenslauf_DC_03.25.pdf",
+  },
+  aboutMe:
+    "Ich bin ein angehender Softwareentwickler mit Schwerpunkt auf Webentwicklung. Seit fast zwei Jahren arbeite ich intensiv mit React und TypeScript und entwickle dabei moderne Webanwendungen. Aktuell studiere ich Softwareentwicklung an der IU Internationalen Hochschule und verbinde mein technisches Wissen mit praktischer Erfahrung aus realen Projekten. Besonders motiviert mich die Möglichkeit, Neues zu lernen – egal ob im Frontend, Backend oder in der Arbeit mit Datenbanken.",
+};
 
 export const SOCIALS = [
-    {
-        name: "Twitter",
-        url: "https://twitter.com/vicbox.dev",
-        icon: "twitter-x-fill",
-        show: true
-    },
-    {
-        name: "Facebook",
-        url: "https://www.facebook.com/vicbox.dev",
-        icon: "facebook-fill",
-        show: false
-    },
-    {
-        name: "Instagram",
-        url: "https://www.instagram.com/vicbox.dev",
-        icon: "instagram-fill",
-        show: true
-    },
-    {
-        name: "Youtube",
-        url: "https://www.youtube.com/vicbox.dev",
-        icon: "youtube-fill",
-        show: true
-    },
-    {
-        name: "TikTok",
-        url: "https://tiktok.com/vicbox.dev",
-        icon: "tik-fill",
-        show: false
-    },
-    {
-        name: "GitHub",
-        url: "https://github.com/vicbox.dev",
-        icon: "github-fill",
-        show: true
-    }
-]
+  {
+    name: "GitHub",
+    url: "https://github.com/Davide131297",
+    icon: "github-fill",
+    show: true,
+  },
+];
